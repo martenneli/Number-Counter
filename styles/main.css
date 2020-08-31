@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap');
+
+            /**     font-family: 'Roboto', sans-serif;        **/ 
+            /**     font-family: 'Poppins', sans-serif;       **/
+            /**     font-family: 'Staatliches', cursive;      **/
+            /**     font-family: 'Cairo', sans-serif;         **/
+            
+:root{
+    --Dark-lighter: #222326;
+    --Org-dark: #f59b23;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --Roboto: 'Roboto', sans-serif; 
+    --Poppins: 'Poppins', sans-serif;
+    --Cairo: 'Cairo', sans-serif;
+    --Staatliches: 'Staatliches', cursive;
+}        
+
+    /*****************************************************************************/
+    /*              Here start the css main code for the main page               */
+    /****xxxxxxxxxxx***********************************************xxxxxxxxxxx****/
+
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }   
+ body{
+     font-family: var(--Poppins);  
+     background: var(--Dark-lighter);
+     color: white;
+ }
+ .main-title{
+     width: 40%;
+     margin: 50px auto;
+ }
+ .main-title h2{
+     border-left: #28a745 solid 2px;
+     border-top: #28a745 solid 2px;
+     height: fit-content;
+     text-align: center;
+     padding: 10px;
+ }
+ .main-title h2:hover{
+     border-right: #28a745 solid 2px;
+     border-bottom: #28a745 solid 2px;
+     transition-duration: 1s;
+     transition: ease 300ms;
+     border-top: none;
+     border-left: none;
+ }
+ .main{
+     display: flex;
+     justify-content: space-around;
+ }
+ .control{
+     display: flex;
+     flex-direction: column;
+ }
+ .btn{
+     margin: 20px 20px;
+     border: none;
+     background-color: #28a745;
+     padding: 17px 25px;
+     border-radius: 3px;
+     color: white;
+     font-family: var(--Poppins);
+     font-weight: 600;
+ }
+ .result h1{
+     font-size: 40px;
+ }
+ #value{
+     font-size: 140px;
+     position: relative;
+     left: 25%;
+     transform: translate(-25%);
+ }
+ .btn:hover{
+     background-color: white;
+     color: #28a745;
+     transition-duration: 1s;
+     transition: ease 700ms;
+ }
